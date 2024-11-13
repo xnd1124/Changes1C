@@ -31,8 +31,11 @@
   <defaultRoles>Role.Изм_ОсновнаяРоль</defaultRoles>
   <version>1.0.0.3</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Управление изменениями типовой конфигураци на проекте</value>
+  </briefInformation>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="711a6b38-dac1-43d3-9e3d-0302aaacc623" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
