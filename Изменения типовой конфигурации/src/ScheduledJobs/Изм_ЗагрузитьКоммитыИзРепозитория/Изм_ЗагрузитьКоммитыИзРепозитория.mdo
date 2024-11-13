@@ -6,7 +6,6 @@
     <value>Загрузить коммиты из репозитория</value>
   </synonym>
   <methodName>CommonModule.Изм_СинхронизацияСGitРепозиторием.ЗагрузитьИзРепозиторияКоммиты</methodName>
-  <description>Загрузить коммиты из Git репозитория</description>
   <key>СинхронизацияСGitРепозиторием.ЗагрузитьИзРепозиторияКоммиты</key>
   <use>true</use>
   <predefined>true</predefined>

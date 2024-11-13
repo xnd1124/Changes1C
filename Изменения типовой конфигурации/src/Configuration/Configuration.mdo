@@ -28,7 +28,6 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <defaultRoles>Role.Изм_ОсновнаяРоль</defaultRoles>
   <version>1.0.0.3</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
@@ -45,15 +44,14 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.ИзмененияТиповойКонфигурации</subsystems>
+  <subsystems>Subsystem.Изм_ИзмененияТиповойКонфигурации</subsystems>
   <commonPictures>CommonPicture.Изм_Git</commonPictures>
   <commonPictures>CommonPicture.Подсистема</commonPictures>
-  <roles>Role.Изм_ОсновнаяРоль</roles>
-  <commonTemplates>CommonTemplate.bsl_console</commonTemplates>
+  <commonTemplates>CommonTemplate.Изм_bsl_console</commonTemplates>
   <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
   <commonModules>CommonModule.Изм_ПодключаемыеКомандыКлиент</commonModules>
   <commonModules>CommonModule.Изм_ПодключаемыеКомандыВызовСервера</commonModules>
-  <commonModules>CommonModule.РаботаСГИТ</commonModules>
+  <commonModules>CommonModule.Изм_РаботаСГИТ</commonModules>
   <commonModules>CommonModule.Изм_СинхронизацияСGitРепозиторием</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <scheduledJobs>ScheduledJob.Изм_ЗагрузитьКоммитыИзРепозитория</scheduledJobs>
@@ -63,7 +61,7 @@
   <constants>Constant.Изм_ПоследнийИзвлеченныйКоммит</constants>
   <constants>Constant.Изм_РасположениеЗапускаемогоФайлаGIT</constants>
   <commonForms>CommonForm.Изм_ФормаНастроек</commonForms>
-  <commonForms>CommonForm.ИзмененияМетаданных</commonForms>
+  <commonForms>CommonForm.Изм_ИзмененияМетаданных</commonForms>
   <commonForms>CommonForm.Изм_ФормаРедактированияСсылки</commonForms>
   <catalogs>Catalog.Изм_ТехническиеПроекты</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>

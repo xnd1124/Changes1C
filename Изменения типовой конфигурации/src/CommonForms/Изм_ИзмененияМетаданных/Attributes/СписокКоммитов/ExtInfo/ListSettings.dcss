@@ -13,43 +13,6 @@
 		<userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</userSettingID>
 	</order>
 	<conditionalAppearance>
-		<item>
-			<selection>
-				<item>
-					<field>ПометкаУдаления</field>
-				</item>
-				<item>
-					<field>Описание</field>
-				</item>
-				<item>
-					<field>Автор</field>
-				</item>
-				<item>
-					<field>Дата</field>
-				</item>
-				<item>
-					<field>Код</field>
-				</item>
-				<item>
-					<field/>
-				</item>
-			</selection>
-			<filter>
-				<item xsi:type="FilterItemComparison">
-					<left xsi:type="dcscor:Field">ЕстьСвязьСТехПроектами</left>
-					<comparisonType>Equal</comparisonType>
-					<right xsi:type="xs:boolean">false</right>
-				</item>
-			</filter>
-			<appearance>
-				<dcscor:item xsi:type="SettingsParameterValue">
-					<dcscor:parameter>ЦветТекста</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:Color">web:DarkGray</dcscor:value>
-				</dcscor:item>
-			</appearance>
-			<viewMode>Inaccessible</viewMode>
-			<userSettingID>e84dd79e-2063-4867-a20d-a88239319ff4</userSettingID>
-		</item>
 		<viewMode>Normal</viewMode>
 	</conditionalAppearance>
 	<itemsViewMode>Normal</itemsViewMode>

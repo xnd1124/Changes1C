@@ -112,12 +112,7 @@
         <id>1</id>
         <visible>true</visible>
         <enabled>true</enabled>
-        <userVisible>
-          <for>
-            <value>true</value>
-            <role>Role.Изм_ОсновнаяРоль</role>
-          </for>
-        </userVisible>
+        <userVisible/>
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Code</segments>
         </dataPath>
@@ -1099,10 +1094,6 @@
                 <handlers>
                   <event>DocumentComplete</event>
                   <name>ПолеHTMLДокументСформирован</name>
-                </handlers>
-                <handlers>
-                  <event>OnClick</event>
-                  <name>ConsoleOnClick</name>
                 </handlers>
                 <width>50</width>
                 <autoMaxWidth>true</autoMaxWidth>
