@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa68d1aa-a2b0-48c2-9114-0631c020f7a8">
+  <producedTypes>
+    <managerType typeId="8b4c24b4-66d9-456e-b930-ded6e40d7908" valueTypeId="07ade832-0619-4f70-9dac-39af25f104bc"/>
+    <valueManagerType typeId="5023384f-9ba4-4894-b0ec-60901b217429" valueTypeId="05b0ff28-edbe-4735-a53e-ebabc8902bef"/>
+    <valueKeyType typeId="42405bda-00e5-40d5-86ce-37943fea7d10" valueTypeId="a13e33ae-463c-40a5-b442-40e5ecc9d9a9"/>
+  </producedTypes>
+  <name>Изм_ЛокальныйКаталогРепозиторияGIt</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локальный каталог репозитория GIT</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

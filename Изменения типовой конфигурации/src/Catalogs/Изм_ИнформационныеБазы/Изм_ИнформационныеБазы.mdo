@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ed75427-fefa-4059-856c-89ef2ab49c53">
+  <producedTypes>
+    <objectType typeId="32868184-6bad-4260-99f5-4b985501ed0a" valueTypeId="9b04cf1a-8eab-465b-9fa7-1890e545a794"/>
+    <refType typeId="e36e4810-3029-4f3e-b96e-120584122552" valueTypeId="cd7a06c3-35bd-4799-a46a-85757555662b"/>
+    <selectionType typeId="521f9d35-3075-4d88-b66d-7912a9162d06" valueTypeId="9072dc73-3df8-4d04-b53b-0b6459624f22"/>
+    <listType typeId="b8141506-4c92-482a-ad73-7b29c13ece30" valueTypeId="b4a0dfaf-a7d6-43da-8ac6-ad037dc63f38"/>
+    <managerType typeId="8e4d73b3-9899-4258-a612-ee1dad6da658" valueTypeId="40c70cc9-49f2-4f33-9d6e-a209dcb213f7"/>
+  </producedTypes>
+  <name>Изм_ИнформационныеБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные базы (изм.)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Изм_ИнформационныеБазы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Изм_ИнформационныеБазы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Информационные базы </value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Информационные базы </value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Изм_ИнформационныеБазы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="267fa232-baee-40c2-a42f-85761dbd6de3">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2d6f0407-9358-408b-98ab-1d55abfe3377">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

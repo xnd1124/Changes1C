@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc0e1d8c-1d0b-4e5d-84b6-a5aafc949519">
+  <producedTypes>
+    <objectType typeId="98dc5962-ddf4-4b54-bf2a-c34810176467" valueTypeId="c350deb5-d992-4c94-ad51-60ff943f9423"/>
+    <refType typeId="71612e34-8ef9-4ee1-87b6-c380c5a4d5dc" valueTypeId="644598d2-9dc0-423a-aa14-178d207fb36f"/>
+    <selectionType typeId="6702d165-5b7b-4559-8035-8c7790ba9234" valueTypeId="0c3572df-2a09-4f6c-89ed-13f7bb09e97d"/>
+    <listType typeId="4dbd832f-6c4d-4e20-97fd-681ffff0b38d" valueTypeId="ddc6452c-00fb-4ee3-bc1a-994dabe9bcd5"/>
+    <managerType typeId="8111ac7b-79c2-4497-8bf9-aa2223e3add5" valueTypeId="e636d562-5186-4fb0-9482-00325891d897"/>
+  </producedTypes>
+  <name>Изм_ТипыСсылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ссылок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Изм_ТипыСсылок.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Изм_ТипыСсылок.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Изм_ТипыСсылок.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Изм_ТипыСсылок.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="56ad250e-0b60-4ae5-9b0d-b89b4fe6dc4d">
+    <name>Пиктограмма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиктограмма</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8fe65b1f-bb68-47cc-9f5d-de20761c1802">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8f6d8cf9-3996-483d-aa7a-dfe028259a9f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5516b885-86f6-42c0-80f9-42eab2000a68">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

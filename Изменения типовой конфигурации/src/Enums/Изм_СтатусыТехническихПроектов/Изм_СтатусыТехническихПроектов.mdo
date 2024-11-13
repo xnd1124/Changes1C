@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8954376-713f-4691-93d0-cb12f0543c3a">
+  <producedTypes>
+    <refType typeId="f151befd-32fc-4699-9b4e-6c79f17e5832" valueTypeId="b6f4462e-a67f-4936-aeb5-2a50a9e98309"/>
+    <listType typeId="1bc56ab6-dd9f-4171-841d-8482e1efcc33" valueTypeId="0f98d90e-5d07-4cb9-ba10-251e55cb9c7e"/>
+    <managerType typeId="0bb82f8d-678f-45eb-8eb2-3f44fd928d63" valueTypeId="81c46fb0-5e00-45b0-9a99-fe39821a5155"/>
+  </producedTypes>
+  <name>Изм_СтатусыТехническихПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы технических проектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6f543e62-b976-4571-9463-e19052aa641b">
+    <name>Запланирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ea5b345-df39-46ea-b5ac-e9ae77b4a56f">
+    <name>Реализуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8a4a4e7-625a-427f-9ee2-14e1cb0786cb">
+    <name>Реализован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c92dd892-2923-448b-a736-86a7a9edcf8f">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

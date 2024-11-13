@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2eec1ec6-90d7-4df7-a746-7544ae241cad">
+  <producedTypes>
+    <managerType typeId="05076cc1-7ef2-4aa0-af1e-e5b033ad8ed4" valueTypeId="55cd1002-78fc-4901-a9f3-43cd992aec65"/>
+    <valueManagerType typeId="d13da7ba-fb56-410c-b0f2-682ae97a31a2" valueTypeId="fa39e9de-0807-4d39-82b6-7ec92b7318f4"/>
+    <valueKeyType typeId="dc1bdf63-380f-4641-8c9e-ad943d892486" valueTypeId="9d02dc66-5479-4b95-aba0-832b0f2d69b5"/>
+  </producedTypes>
+  <name>Изм_РасположениеЗапускаемогоФайлаGIT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расположение запускаемого файла GIT</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

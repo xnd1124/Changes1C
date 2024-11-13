@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d03e89a-63d7-47f1-92c9-612fb82c88bf">
+  <producedTypes>
+    <objectType typeId="710c7f7a-2aef-4bf3-8c74-5b331c10efee" valueTypeId="8cf6c033-6711-4603-a72d-32686320a8e1"/>
+    <refType typeId="60a7ca75-30a9-4287-9bf5-fedcdc82e280" valueTypeId="a687efa6-5eee-42d5-9168-03d29cdf80c4"/>
+    <selectionType typeId="a8eacb97-25cc-46c1-b5d0-c9916a24bd9f" valueTypeId="64654f4d-ae2f-439d-8dd1-2ac5ac2e24bc"/>
+    <listType typeId="629d90bf-d3b3-4206-9230-4848000094f4" valueTypeId="8314ced4-26de-447e-a292-ec1b1134e08b"/>
+    <managerType typeId="ae041168-40ab-42a0-bbef-7c21495e0fce" valueTypeId="2652369c-9d20-4fe3-bc37-0219dcd2dc23"/>
+  </producedTypes>
+  <name>Изм_ТехническиеПроекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технические проекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Изм_ТехническиеПроекты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Изм_ТехническиеПроекты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Технический проект</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Технический проект</value>
+  </extendedObjectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Изм_ТехническиеПроекты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Изм_ТехническиеПроекты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="aa7d304a-9782-4009-a77e-7ba433bb1a03">
+    <name>ПолноеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное описание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d9196985-1f09-4580-9aad-b2a2e7c508f6">
+    <name>КраткоеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="309ad430-65da-4fd9-a5df-74136b38c143">
+    <name>ДатаПрименения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата применения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="637723b5-bde2-4a4b-ba15-c69383ed263d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="171e2ead-178c-4777-a9c2-6176a3fb0f7b">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Изм_СтатусыТехническихПроектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="429eb33b-a588-4f85-9450-fb1b187345c0">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Изм_ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3bc67fc5-8710-471e-9db2-7582da2ea708">
+    <producedTypes>
+      <objectType typeId="cc48e430-e5fa-46d6-9682-e558c4dc9601" valueTypeId="5ee40a84-c210-4526-99a5-014c3f608758"/>
+      <rowType typeId="cf3254f1-8a0c-4222-8d62-053837d5fcf5" valueTypeId="1c12e422-1ae9-49c4-b473-1a19a6ccef5f"/>
+    </producedTypes>
+    <name>ИзмененныеМетаданные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измененные метаданные</value>
+    </synonym>
+    <attributes uuid="2f8077aa-049f-443f-a6e7-871ddc6d276c">
+      <name>ОбъектМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект метаданных</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+        <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="00e71bff-da90-42bb-b076-c335845b983d">
+    <producedTypes>
+      <objectType typeId="cc9ec07d-626f-4462-a86e-3f238f02f20f" valueTypeId="bffb4b8c-2314-43cc-aa0c-4a5547051853"/>
+      <rowType typeId="0c6659ca-dfab-49b1-aab0-6c9eccc8be9c" valueTypeId="e9eaafe4-9bf4-4d1c-b088-530aec5a67b2"/>
+    </producedTypes>
+    <name>Ссылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылки</value>
+    </synonym>
+    <attributes uuid="c43d97fb-9879-4932-918c-6247908d6caa">
+      <name>АдресСсылки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес ссылки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="186d73b2-5d33-4016-9c58-3fdce6cf4ed1">
+      <name>ТипСсылки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип ссылки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Изм_ТипыСсылок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0dd9c400-0df4-4de5-a17e-c43e1024ea78">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1ec252d1-3343-4174-b1ad-22681d355b18">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90cf9542-1f52-4275-920d-f74680922d6d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

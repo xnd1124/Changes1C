@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d3d3f6e-fd74-4914-9551-19f136e9a711">
+  <producedTypes>
+    <managerType typeId="f9e66346-58c3-428c-8376-fd516643f253" valueTypeId="ad220cfa-497f-4dbc-844c-9156955544ac"/>
+    <valueManagerType typeId="71289aed-0b93-4344-a961-c5bb4648ea4c" valueTypeId="2dcff599-f86c-438f-bee3-dbb923fac4b6"/>
+    <valueKeyType typeId="72c71287-c2ca-46e0-b6e6-d0bbd36fb532" valueTypeId="982e6fca-f0a0-4564-9c69-30cecab8e4d8"/>
+  </producedTypes>
+  <name>Изм_ПоследнийИзвлеченныйКоммит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Последний извлеченный коммит (ХЭШ)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>40</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

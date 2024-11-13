@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fdaf4e66-6513-4eb9-96f6-63c302d2e369">
+  <name>ИзмененияТиповойКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения типовой конфигурации</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a20e21e9-2a77-4453-af11-e7149deed72a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="33c430eb-2baa-4d39-b393-fade2536141b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="860d0c82-f627-4a5e-bb85-890d18ef015b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="74fc72ff-eb93-4015-8a34-707e346e955c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b3e94bed-49fd-470d-9a6e-057beec70a77"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e7afef7c-c13a-49e0-8ffa-4d55ee259e51"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="60c6a744-3bfa-4b41-a6f3-64811996439f"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Изм_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Изм_ОсновнаяРоль</defaultRoles>
+  <version>1.0.0.3</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="711a6b38-dac1-43d3-9e3d-0302aaacc623" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ИзмененияТиповойКонфигурации</subsystems>
+  <commonPictures>CommonPicture.Изм_Git</commonPictures>
+  <commonPictures>CommonPicture.Подсистема</commonPictures>
+  <roles>Role.Изм_ОсновнаяРоль</roles>
+  <commonTemplates>CommonTemplate.bsl_console</commonTemplates>
+  <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
+  <commonModules>CommonModule.Изм_ПодключаемыеКомандыКлиент</commonModules>
+  <commonModules>CommonModule.Изм_ПодключаемыеКомандыВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСГИТ</commonModules>
+  <commonModules>CommonModule.Изм_СинхронизацияСGitРепозиторием</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <scheduledJobs>ScheduledJob.Изм_ЗагрузитьКоммитыИзРепозитория</scheduledJobs>
+  <commonCommands>CommonCommand.Изм_ОткрытьНастройки</commonCommands>
+  <commonCommands>CommonCommand.Изм_ОткрытьИзмененияМетаданных</commonCommands>
+  <constants>Constant.Изм_ЛокальныйКаталогРепозиторияGIt</constants>
+  <constants>Constant.Изм_ПоследнийИзвлеченныйКоммит</constants>
+  <constants>Constant.Изм_РасположениеЗапускаемогоФайлаGIT</constants>
+  <commonForms>CommonForm.Изм_ФормаНастроек</commonForms>
+  <commonForms>CommonForm.ИзмененияМетаданных</commonForms>
+  <commonForms>CommonForm.Изм_ФормаРедактированияСсылки</commonForms>
+  <catalogs>Catalog.Изм_ТехническиеПроекты</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.Изм_Коммиты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Изм_ИнформационныеБазы</catalogs>
+  <catalogs>Catalog.Изм_ТипыСсылок</catalogs>
+  <enums>Enum.Изм_СтатусыТехническихПроектов</enums>
+</mdclass:Configuration>

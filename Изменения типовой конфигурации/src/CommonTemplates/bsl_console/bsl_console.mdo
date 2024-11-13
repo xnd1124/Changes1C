@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9da3cce9-4d5a-4d70-bc37-c2750c3d3224">
+  <name>bsl_console</name>
+  <synonym>
+    <key>ru</key>
+    <value>src</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

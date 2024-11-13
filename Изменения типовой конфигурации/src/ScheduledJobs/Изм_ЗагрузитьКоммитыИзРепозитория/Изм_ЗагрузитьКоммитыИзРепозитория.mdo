@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08abe7f2-46e8-45c8-aa2f-92f70361a281">
+  <name>Изм_ЗагрузитьКоммитыИзРепозитория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить коммиты из репозитория</value>
+  </synonym>
+  <methodName>CommonModule.Изм_СинхронизацияСGitРепозиторием.ЗагрузитьИзРепозиторияКоммиты</methodName>
+  <description>Загрузить коммиты из Git репозитория</description>
+  <key>СинхронизацияСGitРепозиторием.ЗагрузитьИзРепозиторияКоммиты</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

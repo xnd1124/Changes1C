@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1b53056-428d-432a-adfd-82419e101fe9">
+  <name>Изм_ПодключаемыеКомандыКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изм подключаемые команды клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
