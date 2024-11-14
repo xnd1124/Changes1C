@@ -17,5 +17,5 @@
   <content>Catalog.Изм_ИнформационныеБазы</content>
   <content>CommonCommand.Изм_ОткрытьИзмененияМетаданных</content>
   <content>Catalog.Изм_ТипыСсылок</content>
-  <content>CommonCommand.Изм_ЧтоНового</content>
+  <content>CommonCommand.Изм_ОПрограмме</content>
 </mdclass:Subsystem>

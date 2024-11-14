@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Симфония&quot;</vendor>
-  <version>1.0.0.5</version>
+  <version>1.0.0.6</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -36,11 +36,19 @@
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>Авторы: 
-Александр Ефремов
+    <value>Александр Ефремов: 
 https://t.me/AN_Efremov
-Михаил Прохоров https://t.me/m_a_prokhorov</value>
+Михаил Прохоров: 
+https://t.me/m_a_prokhorov</value>
   </detailedInformation>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/xnd1124/Changes1C</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/xnd1124/Changes1C/releases</value>
+  </configurationInformationAddress>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="711a6b38-dac1-43d3-9e3d-0302aaacc623" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
     <name>Русский</name>
@@ -55,21 +63,22 @@ https://t.me/AN_Efremov
   <commonPictures>CommonPicture.Изм_Git</commonPictures>
   <commonPictures>CommonPicture.Подсистема</commonPictures>
   <commonTemplates>CommonTemplate.Изм_bsl_console</commonTemplates>
-  <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
-  <commonModules>CommonModule.Изм_ПодключаемыеКомандыКлиент</commonModules>
   <commonModules>CommonModule.Изм_ПодключаемыеКомандыВызовСервера</commonModules>
+  <commonModules>CommonModule.Изм_ПодключаемыеКомандыКлиент</commonModules>
   <commonModules>CommonModule.Изм_РаботаСГИТ</commonModules>
   <commonModules>CommonModule.Изм_СинхронизацияСGitРепозиторием</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
   <scheduledJobs>ScheduledJob.Изм_ЗагрузитьКоммитыИзРепозитория</scheduledJobs>
+  <commonCommands>CommonCommand.Изм_ОПрограмме</commonCommands>
   <commonCommands>CommonCommand.Изм_ОткрытьИзмененияМетаданных</commonCommands>
   <commonCommands>CommonCommand.Изм_ОткрытьНастройки</commonCommands>
-  <commonCommands>CommonCommand.Изм_ЧтоНового</commonCommands>
   <constants>Constant.Изм_ЛокальныйКаталогРепозиторияGIt</constants>
   <constants>Constant.Изм_ПоследнийИзвлеченныйКоммит</constants>
   <constants>Constant.Изм_РасположениеЗапускаемогоФайлаGIT</constants>
-  <commonForms>CommonForm.Изм_ФормаНастроек</commonForms>
   <commonForms>CommonForm.Изм_ИзмененияМетаданных</commonForms>
+  <commonForms>CommonForm.Изм_ОПрограмме</commonForms>
+  <commonForms>CommonForm.Изм_ФормаНастроек</commonForms>
   <commonForms>CommonForm.Изм_ФормаРедактированияСсылки</commonForms>
   <catalogs>Catalog.Изм_ТехническиеПроекты</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
