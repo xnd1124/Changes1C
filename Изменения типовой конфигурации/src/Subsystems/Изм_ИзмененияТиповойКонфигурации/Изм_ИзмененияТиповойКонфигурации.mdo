@@ -3,7 +3,7 @@
   <name>Изм_ИзмененияТиповойКонфигурации</name>
   <synonym>
     <key>ru</key>
-    <value>Изм изменения типовой конфигурации</value>
+    <value>Изменения типовой конфигурации</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
