@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Симфония&quot;</vendor>
-  <version>1.0.0.4</version>
+  <version>1.0.0.5</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -62,8 +62,9 @@ https://t.me/AN_Efremov
   <commonModules>CommonModule.Изм_СинхронизацияСGitРепозиторием</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <scheduledJobs>ScheduledJob.Изм_ЗагрузитьКоммитыИзРепозитория</scheduledJobs>
-  <commonCommands>CommonCommand.Изм_ОткрытьНастройки</commonCommands>
   <commonCommands>CommonCommand.Изм_ОткрытьИзмененияМетаданных</commonCommands>
+  <commonCommands>CommonCommand.Изм_ОткрытьНастройки</commonCommands>
+  <commonCommands>CommonCommand.Изм_ЧтоНового</commonCommands>
   <constants>Constant.Изм_ЛокальныйКаталогРепозиторияGIt</constants>
   <constants>Constant.Изм_ПоследнийИзвлеченныйКоммит</constants>
   <constants>Constant.Изм_РасположениеЗапускаемогоФайлаGIT</constants>
