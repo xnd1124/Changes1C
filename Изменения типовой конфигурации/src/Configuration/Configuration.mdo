@@ -27,12 +27,20 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>ООО &quot;Симфония&quot;</vendor>
   <version>1.0.0.4</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
     <value>Управление изменениями типовой конфигураци на проекте</value>
   </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Авторы: 
+Александр Ефремов
+https://t.me/AN_Efremov
+Михаил Прохоров https://t.me/m_a_prokhorov</value>
+  </detailedInformation>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="711a6b38-dac1-43d3-9e3d-0302aaacc623" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
     <name>Русский</name>

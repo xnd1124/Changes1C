@@ -445,6 +445,36 @@
         <autoCommandBar>
           <name>ИзмененныеМетаданныеКоманднаяПанель</name>
           <id>22</id>
+          <items xsi:type="form:Button">
+            <name>ИзмененныеМетаданныеПодбор</name>
+            <id>141</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ИзмененныеМетаданныеПодборРасширеннаяПодсказка</name>
+              <id>142</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.Подбор</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -456,6 +486,10 @@
         <handlers>
           <event>OnEditEnd</event>
           <name>ИзмененныеМетаданныеПриОкончанииРедактирования</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>ИзмененныеМетаданныеОбработкаВыбора</name>
         </handlers>
         <searchStringAddition>
           <visible>true</visible>
@@ -2231,6 +2265,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <formCommands>
+    <name>Подбор</name>
+    <title>
+      <key>ru</key>
+      <value>Подбор</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Подбор</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

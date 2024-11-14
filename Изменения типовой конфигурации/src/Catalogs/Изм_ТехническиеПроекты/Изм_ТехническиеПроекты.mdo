@@ -214,6 +214,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="eae7ee52-9cd7-4921-acd0-f16745005715">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик (Инициатор)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="3bc67fc5-8710-471e-9db2-7582da2ea708">
     <producedTypes>
       <objectType typeId="cc48e430-e5fa-46d6-9682-e558c4dc9601" valueTypeId="5ee40a84-c210-4526-99a5-014c3f608758"/>
