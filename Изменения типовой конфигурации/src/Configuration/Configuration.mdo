@@ -63,7 +63,6 @@ https://t.me/m_a_prokhorov</value>
   <commonPictures>CommonPicture.Изм_Git</commonPictures>
   <commonPictures>CommonPicture.Подсистема</commonPictures>
   <commonTemplates>CommonTemplate.Изм_bsl_console</commonTemplates>
-  <commonModules>CommonModule.Изм_ПодключаемыеКомандыВызовСервера</commonModules>
   <commonModules>CommonModule.Изм_ПодключаемыеКомандыКлиент</commonModules>
   <commonModules>CommonModule.Изм_РаботаСГИТ</commonModules>
   <commonModules>CommonModule.Изм_СинхронизацияСGitРепозиторием</commonModules>
