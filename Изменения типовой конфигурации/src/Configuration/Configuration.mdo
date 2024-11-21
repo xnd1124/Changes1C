@@ -63,6 +63,10 @@ https://t.me/m_a_prokhorov</value>
   </languages>
   <subsystems>Subsystem.Изм_ИзмененияТиповойКонфигурации</subsystems>
   <commonPictures>CommonPicture.Изм_Git</commonPictures>
+  <commonPictures>CommonPicture.Изм_ПиктограммаВходитВСостав</commonPictures>
+  <commonPictures>CommonPicture.Изм_ПиктограммаПростаяСвязь</commonPictures>
+  <commonPictures>CommonPicture.Изм_ПиктограммаСостоитИз</commonPictures>
+  <commonPictures>CommonPicture.Изм_ТипыСвязей</commonPictures>
   <commonPictures>CommonPicture.Подсистема</commonPictures>
   <roles>Role.Изм_ОсновнаяРоль</roles>
   <commonTemplates>CommonTemplate.Изм_bsl_console</commonTemplates>
@@ -90,4 +94,6 @@ https://t.me/m_a_prokhorov</value>
   <catalogs>Catalog.Изм_ИнформационныеБазы</catalogs>
   <catalogs>Catalog.Изм_ТипыСсылок</catalogs>
   <enums>Enum.Изм_СтатусыТехническихПроектов</enums>
+  <enums>Enum.Изм_ТипыСвязей</enums>
+  <informationRegisters>InformationRegister.Изм_СвязиПроектов</informationRegisters>
 </mdclass:Configuration>

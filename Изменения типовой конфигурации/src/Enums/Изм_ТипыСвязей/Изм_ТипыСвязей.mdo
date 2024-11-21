@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66cdbe16-820e-4a19-a42a-0b21f80dec73">
+  <producedTypes>
+    <refType typeId="81a1c44f-fa53-4bb0-a515-6b7264e0c0eb" valueTypeId="6c77f83c-e73b-414d-97bc-63ccbb94eff6"/>
+    <listType typeId="bd0f3d01-5729-4b72-a40c-4ffe157592f2" valueTypeId="3c0d12d2-3e4a-4339-aa4a-bc5400693cc5"/>
+    <managerType typeId="e675e596-61e5-4abe-82f7-ed9f9e2ae39b" valueTypeId="ac2207a1-ba7f-469d-9d5a-3e879317ede8"/>
+  </producedTypes>
+  <name>Изм_ТипыСвязей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы связей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="39cb6c73-5410-45ac-9bdd-649e6d39e0cb">
+    <name>Связан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99321ed8-ae79-4dd8-a98b-58e0f19b1c53">
+    <name>Содержит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6528be8c-0d69-4ec0-a31a-307ceaca8082">
+    <name>ВходитВСостав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в состав</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
