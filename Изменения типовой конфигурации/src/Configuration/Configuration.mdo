@@ -30,7 +30,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.Изм_ОсновнаяРоль</defaultRoles>
   <vendor>ООО &quot;Симфония&quot;</vendor>
-  <version>1.0.0.6</version>
+  <version>1.0.0.7</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
