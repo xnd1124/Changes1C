@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9df82b41-4132-4573-aae4-7ec36869c00d">
+  <name>Изм_БиблиотекаG6</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека g6</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

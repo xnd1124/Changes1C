@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32d1b1be-6023-48fe-a679-db996865b198">
+  <name>Изм_ПиктограммаСостоитИз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изм пиктограмма состоит из</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Icon related indicators</value>
+  </synonym>
+</mdclass:CommonPicture>

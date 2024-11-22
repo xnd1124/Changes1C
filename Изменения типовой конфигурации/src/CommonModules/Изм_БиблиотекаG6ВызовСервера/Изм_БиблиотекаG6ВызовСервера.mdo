@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efbc20f6-3a43-4e1f-93c4-7d4f30c899b5">
+  <name>Изм_БиблиотекаG6ВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека g6 вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

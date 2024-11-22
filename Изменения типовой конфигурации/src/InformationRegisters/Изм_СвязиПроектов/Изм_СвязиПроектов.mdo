@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5e5ca78-cd0c-4183-8748-e35acd3a9e49">
+  <producedTypes>
+    <selectionType typeId="783a4acf-bd10-4be4-b4a6-2ea8c6a67e83" valueTypeId="30f0b5b6-9b54-4a8b-b39e-38fb09cdb0eb"/>
+    <listType typeId="65c5aa9e-e434-4182-acd5-e19da2a83c22" valueTypeId="9d21037e-5b4f-4acb-9964-04b080613a16"/>
+    <managerType typeId="68d9f5c2-93d2-4e98-bdaf-5b769b00ff11" valueTypeId="2ccbfb04-cb61-4318-8bc6-f756b5410959"/>
+    <recordSetType typeId="5497f44b-4108-4fcc-b3ae-dafc40f4542e" valueTypeId="c0444fb3-3755-4809-8000-94d1d55b34ef"/>
+    <recordKeyType typeId="53e730dd-ca36-4bb3-828b-6eacb0d45eca" valueTypeId="e4fd3651-5af2-4ec1-bef2-759c585ecd7d"/>
+    <recordType typeId="96dc413a-883e-4f3a-9406-a3514275b168" valueTypeId="8b2f41dc-a81a-4f05-9417-209f5e9831b2"/>
+    <recordManagerType typeId="c6626d1c-18c7-43d5-a140-2114f47bdfcd" valueTypeId="4f3d30e0-6705-4a84-8458-b9110cf455e2"/>
+  </producedTypes>
+  <name>Изм_СвязиПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи задач</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Изм_СвязиПроектов.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Связи задач</value>
+  </recordPresentation>
+  <resources uuid="8808b3c8-de46-4d30-945c-4c205e02e51f">
+    <name>ТипСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип связи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Изм_ТипыСвязей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d3030698-d356-4ee3-b0c3-4bc61ea8669f">
+    <name>Пояснение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пояснение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="817d1d5b-fe4a-46e9-9593-119e693c1845">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Изм_ТехническиеПроекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="24808c1f-65f7-4e5d-af71-49e612fecb1e">
+    <name>Приемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Изм_ТехническиеПроекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8181f6a4-08a2-4561-b42c-4cd444b67eb4">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
