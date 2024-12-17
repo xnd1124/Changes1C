@@ -30,7 +30,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.Изм_ОсновнаяРоль</defaultRoles>
   <vendor>ООО &quot;Симфония&quot;</vendor>
-  <version>1.0.0.7</version>
+  <version>1.0.0.9</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -63,6 +63,7 @@ https://t.me/m_a_prokhorov</value>
   </languages>
   <subsystems>Subsystem.Изм_ИзмененияТиповойКонфигурации</subsystems>
   <commonPictures>CommonPicture.Изм_Git</commonPictures>
+  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация16</commonPictures>
   <commonPictures>CommonPicture.Подсистема</commonPictures>
   <roles>Role.Изм_ОсновнаяРоль</roles>
   <commonTemplates>CommonTemplate.Изм_bsl_console</commonTemplates>
